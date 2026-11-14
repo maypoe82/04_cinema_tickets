@@ -44,3 +44,6 @@ def test_non_integer_ticket_count_raises_type_error(ticket_count):
     # Act and Assert
     with pytest.raises(TypeError):
         ticket_price(ticket_count)
+
+
+# Demo: push to a feature branch triggers the workflow
